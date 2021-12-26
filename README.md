@@ -1,5 +1,5 @@
-# g - chat bot
-It is repository for chat bot: [@g](https://t.me/g)
+# Twwwwwwwwbot - chat bot
+It is repository for chat bot: [@Twwwwwwwwbot](https://t.me/Twwwwwwwwbot)
 
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.
