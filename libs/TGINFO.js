@@ -27,7 +27,7 @@ let Names = member.username
 if(!Names){
 return "ℹ️*First Name*: " + member.first_name +  "\nℹ️*Last Name*: " + member.last_name + "\n*💳ID*: `" + member.telegramid + "`\n👩‍🚒*Username*: None"
 }else{
-return "ℹ️*First Name*: " + member.first_name +  "\nℹ️*Last Name*: " + member.last_name + "\n*💳ID*: `" + member.telegramid + "`\n👩‍🚒*Username*: " + member.username
+return "ℹ️*First Name*: " + member.first_name +  "\nℹ️*Last Name*: " + member.last_name + "\n*💳ID*: `" + member.telegramid + "`\n👩‍🚒*Username*: @" + member.username
 }
 }
 publish({
