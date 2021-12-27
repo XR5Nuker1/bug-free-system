@@ -56,7 +56,7 @@ HTTP.get( {
 }
 }
 
-function setupcmd(){
+function setupcmdE(){
 var panel = {
     // Panel title
     title: "HTTP Get Custom commands",
@@ -86,10 +86,12 @@ AdminPanel.setPanel({
     panel_name: "Custom commands",
     data: panel
   });
-
-Bot.sendMessage("Your admin panel has been setup. Setup both commands for custom commands to work")
  }
+function setupcmd(options){
+  setupcmdE();
 
+  Bot.sendMessage("Your admin panel has been setup. Setup both commands for custom commands to work")
+}
 publish({
     getUrlInfo: getURInfo,
     setupcmd: setupcmd
