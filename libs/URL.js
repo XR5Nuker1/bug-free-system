@@ -30,7 +30,7 @@ HTTP.get( {
     // folow_redirects: true, // if you need folow by redirects
   } )
 */
-}else(
+}else{
 HTTP.get( {
     url: url,
     success: data1,
@@ -56,7 +56,7 @@ HTTP.get( {
 }
 }
 
-function setupcmdE(){
+function setupcmd(){
 var panel = {
     // Panel title
     title: "HTTP Get Custom commands",
@@ -86,11 +86,9 @@ AdminPanel.setPanel({
     panel_name: "Custom commands",
     data: panel
   });
- }
-function setupcmd(options){
-  setupcmdE();
-
+ 
   Bot.sendMessage("Your admin panel has been setup. Setup both commands for custom commands to work")
+
 }
 publish({
     getUrlInfo: getURInfo,
